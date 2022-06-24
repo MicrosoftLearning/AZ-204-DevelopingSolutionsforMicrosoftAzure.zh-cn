@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: a0384c399e26652e2516e9e6a16b6b892cd0e8b0
-ms.sourcegitcommit: 59c540737d0d7c14e6b56805afed30f1df1561f8
+ms.openlocfilehash: 40d663462e7e48bf5baeb118e1da99d4ebf89c86
+ms.sourcegitcommit: b3c9969e988713afd5bfcfa551d5986d914edf2e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "144341256"
+ms.lasthandoff: 06/23/2022
+ms.locfileid: "146565016"
 ---
 # <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204：为 Microsoft Azure 开发解决方案
 
@@ -15,6 +15,7 @@ ms.locfileid: "144341256"
 - 将学生定向到 [https://aka.ms/az204labs](https://aka.ms/az204labs) 以查看易于使用的实验室说明列表。
 - 你是 MCT 吗？ - 查看 [MCT GitHub 用户指南](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **需要手动生成实验室说明？** - [MicrosoftLearning/Docker-Build ](https://github.com/MicrosoftLearning/Docker-Build) 存储库中提供了说明 
+- 添加了用于跟踪问题/PR 进度的[项目](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/projects/1)。
 
 ## <a name="security-issue---february-2022"></a>安全问题 - 2022 年 2 月
 
