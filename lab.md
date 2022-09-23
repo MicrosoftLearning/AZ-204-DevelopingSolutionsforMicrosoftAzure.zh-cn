@@ -1,10 +1,10 @@
-﻿# 实验室虚拟机设置
+# <a name="lab-virtual-machine-setup"></a>实验室虚拟机设置
 
-## 已安装的软件
+## <a name="installed-software"></a>已安装的软件
 
 | 软件 | 链接 |
 | --- | --- |
-| Windows 10（内部版本 2004） | <https://www.microsoft.com/software-download/windows10> |
+| Windows 10（版本 2004） | <https://www.microsoft.com/software-download/windows10> |
 | Visual Studio Code | <https://code.visualstudio.com> |
 | Visual Studio Code Azure 帐户扩展 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account> |
 | Visual Studio Code Azure Functions 扩展 | <https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions> |
@@ -13,16 +13,16 @@
 | Visual Studio Code PowerShell 扩展 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell> |
 | Visual Studio Code C# 扩展 | <https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp> |
 | PowerShell 7 | <https://github.com/PowerShell/PowerShell/releases/tag/v7.0.3> |
-| .NET Core 3.1 SDK | <https://dotnet.microsoft.com/download/dotnet-core/3.1> |
+| .NET 6 SDK | <https://dotnet.microsoft.com/download/dotnet/6.0> |
 | Azure PowerShell | <https://docs.microsoft.com/powershell/azure/install-az-ps> |
 | Azure CLI | <https://docs.microsoft.com/cli/azure/install-azure-cli> |
 | Azure 存储资源管理器 | <https://azure.microsoft.com/features/storage-explorer> |
 | .NET 工具 - HttpRepl | <https://github.com/dotnet/HttpRepl> |
 | Azure Functions Core Tools | <https://docs.microsoft.com/azure/azure-functions/functions-run-local#v3> |
 | Windows 终端 | <https://aka.ms/terminal> |
-| Microsoft Edge (Chromium) | <https://www.microsoft.com/edge> |
+| Microsoft Microsoft Edge (Chromium) | <https://www.microsoft.com/edge> |
 
-## 附加配置
+## <a name="additional-configuration"></a>附加配置
 
 - 启用 ClearType
   
@@ -75,7 +75,7 @@
   ```
 
 - 将开始菜单与任务栏配置为仅包含以下图标：
-  - 文件资源管理器
+  - 文件资源浏览器
   - Microsoft Edge
   - Windows 终端
   - Visual Studio Code
@@ -83,7 +83,7 @@
 
 - 禁用 PowerShell 7 更新通知
 
-  1. [创建名为 ``POWERSHELL_UPDATECHECK`` 的环境变量](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_update_notifications?view=powershell-7)
+  1. [创建环境变量](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_update_notifications?view=powershell-7)，名为 ``POWERSHELL_UPDATECHECK``
   
   1. 将环境变量的值设置为 ``Off``（区分大小写）
 

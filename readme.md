@@ -1,36 +1,55 @@
-﻿# AZ-204：为 Microsoft Azure 开发解决方案
+---
+ms.openlocfilehash: 40d663462e7e48bf5baeb118e1da99d4ebf89c86
+ms.sourcegitcommit: b3c9969e988713afd5bfcfa551d5986d914edf2e
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/23/2022
+ms.locfileid: "146565016"
+---
+# <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204：为 Microsoft Azure 开发解决方案
 
-- **将学生导向**至 [https://aka.ms/az204labs-chs](https://aka.ms/az204labs-chs) 以查看易于使用的实验室说明列表。 
-- **[下载最新的学生手册和 AllFiles 内容](../../releases/latest)**
-- **你是 MCT 吗？** - 请查看[适用于 MCT 的 GitHub 用户指南](https://microsoftlearning.github.io/MCT-User-Guide-ZH/)
-- **是否需要手动生成实验说明？** - 可在 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存储库中找到说明
+**所有实验室说明都于 2021 年 10 月 15 日进行了更新。** 我们将关闭所有当前未解决的问题和 PR，鼓励每个人查看新说明，并在以后提交新的更改。
 
-## 我们要做什么？
+> **注意**：如果未通过实验室宿主提供程序向学生提供 AllFiles，应该指导他们同步存储库。 
 
-- 为了支持本课程，我们需要经常更新课程内容，以使其与课程中使用的 Azure 服务保持同步。  我们将在 GitHub 上发布实验室说明和实验室文件，以允许课程作者和 MCT 之间的开放式合著，从而让内容与 Azure 平台中的更改保持同步。
+- 将学生定向到 [https://aka.ms/az204labs](https://aka.ms/az204labs) 以查看易于使用的实验室说明列表。
+- 你是 MCT 吗？ - 查看 [MCT GitHub 用户指南](https://microsoftlearning.github.io/MCT-User-Guide/)
+- **需要手动生成实验室说明？** - [MicrosoftLearning/Docker-Build ](https://github.com/MicrosoftLearning/Docker-Build) 存储库中提供了说明 
+- 添加了用于跟踪问题/PR 进度的[项目](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/projects/1)。
 
-- 我们希望能在这些实验室中引入前所未有的协作感：如果 Azure 发生更改，而你先在直播讲课时发现这一点，你可以直接在实验室源中进行改进。  这样可以帮助到其他 MCT。
+## <a name="security-issue---february-2022"></a>安全问题 - 2022 年 2 月
 
-## 我应该如何使用与已发布 MOC 文件相关的这些文件？
+某些 Azure 培训实验室会指示学生使用特定的用户名和密码。 居心不良的人会不断扫描虚拟机，并尝试使用这些凭据登录。
+他们登录时，会使用计算机进行加密挖掘，并可能将其用于其他活动。
 
-- 在讲授课程内容时，主要参考的仍将是讲师手册和 PowerPoint。
+**修正**：应指导学生使用他们自己选择的密码。 学生不应在实验室说明中使用该密码。 本周将更新实验室步骤以删除密码。 
 
-- GitHub 上的这些文件适合与学生手册结合使用，不过在 GitHub 中作为中央存储库使用，因此 MCT 和课程作者可以获得一个用于共享最新实验室文件的共享源。
+## <a name="what-are-we-doing"></a>我们要做什么？
 
-- 对于每次授课，建议培训师查看 GitHub 中的内容，了解所有更改（目的是支持最新的 Azure 服务），并在讲授时采用最新的文件。
+- 为支持此课程，我们需要经常更新课程内容，使其与课程中使用的 Azure 服务保持同步。  我们正在 GitHub 上发布实验室说明和实验室文件，使课程作者和 MCT 之间能够以开放的方式做出贡献，使内容与 Azure 平台中的更改保持同步。
 
-## 如何处理对学生手册进行的更改？
+- 我们希望这会给实验室带来前所未有的协作感 - 当 Azure 发生变化，并且你在实时交付期间首先发现它时，就在实验室的源头上进行增强。 
 
-- 我们将每季度审核一次学生手册，并根据需要通过常规 MOC 发布渠道进行更新。
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>我应该如何使用与已发布 MOC 文件相关的这些文件？
 
-## 如何参与内容编辑？
+- 讲师手册和 PowerPoint 仍将是教授课程内容的主要来源。
 
-- 每位 MCT 都可向 GitHub 存储库中的代码或内容提交拉取请求，Microsoft 和课程作者将对内容进行鉴别分类，并根据需要采纳内容和实验室代码更改。
+- GitHub 上的这些文件旨在与学员手册一起使用，但在 GitHub 中是作为中心存储库，因此 MCT 和课程作者可以拥有最新实验室文件的共享源。
 
-- 你可以提交 Bug、更改、改进内容和想法。  比我们先发现 Azure 新功能？  提交新的演示吧！
+- 建议在每次交付时，培训师检查 GitHub 是否为支持最新的 Azure 服务进行了任何更改，并获取最新的交付文件。
 
-## 备注
+## <a name="what-about-changes-to-the-student-handbook"></a>如何处理对学生手册的更改？
 
-### 课堂材料
+- 我们将按季度审核学员手册，并根据需要通过标准 MOC 版本通道进行更新。
 
-强烈建议 MCT 和合作伙伴依次查看这些材料，然后将它们分别提供给学生。  如果在课程中直接让学生访问 GitHub 来查看实验室步骤，将需要学生访问另一个 UI，这样更容易使其迷惑不解。向学生解释他们收到单独实验室说明的原因，这可以突显基于云的界面和平台具有不断变化的性质。仅为讲授此课程的 MCT 提供有关访问 GitHub 上的文件以及导航 GitHub 站点的 Microsoft Learning 支持。
+## <a name="how-do-i-contribute"></a>如何做出贡献？
+
+- 任何 MCT 都可向 GitHub 存储库中的代码或内容提交拉取请求，Microsoft 和课程作者将根据需要进行分流并纳入内容和实验室代码的更改。
+
+- 你可以提交 bug、更改、改进和想法。  先于我们找到了新的 Azure 功能？  提交新演示！
+
+## <a name="notes"></a>说明
+
+### <a name="classroom-materials"></a>课堂材料
+
+强烈建议 MCT 和合作伙伴访问这些材料，然后将它们单独提供给学生。  如果让学生直接访问 GitHub 来获取所授课程中包含的实验室步骤，这将要求他们访问课程中的另一个 UI，容易让学生感到混淆。 而向学生解释为何收到单独的实验室说明可以强调不断变化的基于云的接口和平台的性质。 Microsoft Learning 对访问 GitHub 上的文件的支持以及对 GitHub 站点导航的支持仅限于教授本课程的 MCT。
