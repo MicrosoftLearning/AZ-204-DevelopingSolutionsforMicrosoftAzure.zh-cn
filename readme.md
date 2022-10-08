@@ -1,21 +1,12 @@
----
-ms.openlocfilehash: 40d663462e7e48bf5baeb118e1da99d4ebf89c86
-ms.sourcegitcommit: b3c9969e988713afd5bfcfa551d5986d914edf2e
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2022
-ms.locfileid: "146565016"
----
 # <a name="az-204-developing-solutions-for-microsoft-azure"></a>AZ-204：为 Microsoft Azure 开发解决方案
 
-**所有实验室说明都于 2021 年 10 月 15 日进行了更新。** 我们将关闭所有当前未解决的问题和 PR，鼓励每个人查看新说明，并在以后提交新的更改。
+**实验室说明、可下载代码和 VM 已于 2022 年 8 月 5 日更新为 .NET 6。我们正在监视与此更新相关的问题，并正与我们的实验室托管提供商合作，以尝试并尽快解决任何问题。**
 
 > **注意**：如果未通过实验室宿主提供程序向学生提供 AllFiles，应该指导他们同步存储库。 
 
 - 将学生定向到 [https://aka.ms/az204labs](https://aka.ms/az204labs) 以查看易于使用的实验室说明列表。
 - 你是 MCT 吗？ - 查看 [MCT GitHub 用户指南](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **需要手动生成实验室说明？** - [MicrosoftLearning/Docker-Build ](https://github.com/MicrosoftLearning/Docker-Build) 存储库中提供了说明 
-- 添加了用于跟踪问题/PR 进度的[项目](https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/projects/1)。
 
 ## <a name="security-issue---february-2022"></a>安全问题 - 2022 年 2 月
 
@@ -36,17 +27,17 @@ ms.locfileid: "146565016"
 
 - GitHub 上的这些文件旨在与学员手册一起使用，但在 GitHub 中是作为中心存储库，因此 MCT 和课程作者可以拥有最新实验室文件的共享源。
 
-- 建议在每次交付时，培训师检查 GitHub 是否为支持最新的 Azure 服务进行了任何更改，并获取最新的交付文件。
+- 对于每次授课，建议培训师查看 GitHub 中的内容，了解是否为支持最新 Azure 服务而进行了更改，并获取最新文件来进行授课。
 
 ## <a name="what-about-changes-to-the-student-handbook"></a>如何处理对学生手册的更改？
 
 - 我们将按季度审核学员手册，并根据需要通过标准 MOC 版本通道进行更新。
 
-## <a name="how-do-i-contribute"></a>如何做出贡献？
+## <a name="how-do-i-contribute"></a>如何参与内容编辑？
 
 - 任何 MCT 都可向 GitHub 存储库中的代码或内容提交拉取请求，Microsoft 和课程作者将根据需要进行分流并纳入内容和实验室代码的更改。
 
-- 你可以提交 bug、更改、改进和想法。  先于我们找到了新的 Azure 功能？  提交新演示！
+- 你可以提交 bug、更改、改进和想法。  先于我们找到了新的 Azure 功能？  提交新的演示吧！
 
 ## <a name="notes"></a>说明
 
