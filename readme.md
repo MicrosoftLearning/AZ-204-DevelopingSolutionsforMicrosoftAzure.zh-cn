@@ -1,7 +1,5 @@
 # AZ-204: Developing solutions for Microsoft Azure
 
-实验室说明、可下载代码和 VM 已于 2022 年 8 月 5 日更新为 .NET 6。我们正在监视与此更新相关的问题，并与实验室托管提供商合作，尝试尽快解决任何问题。****
-
 > **备注**：如果未通过实验室托管提供者向学生提供 AllFiles，应该指导他们同步存储库。 
 
 - 将学生定向到 [https://aka.ms/az204labs](https://aka.ms/az204labs) 以查看易于使用的实验室说明列表****。
